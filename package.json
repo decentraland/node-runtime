@@ -1,0 +1,25 @@
+{
+  "name": "dcl-node-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "@types/ws": "^7.2.7",
+    "@zeit/ncc": "^0.22.3",
+    "decentraland-rpc": "^3.1.8",
+    "fp-future": "^1.0.1",
+    "typescript": "^4.0.2",
+    "vm2": "^3.9.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "ws": "^7.3.1"
+  }
+}
